@@ -5,6 +5,7 @@ def decimal_degree(position):
     degree, minutes, seconds = position
     return degree + minutes / 60 + seconds / 3600
 
+# calculate distance between two points
 def distance(p1_x, p1_y, p2_x, p2_y):
     return math.sqrt((p2_x - p1_x)**2 + (p2_y - p1_y)**2)
 
