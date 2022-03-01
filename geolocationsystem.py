@@ -9,8 +9,8 @@ def decimal_degree(position):
 def distance(p1_x, p1_y, p2_x, p2_y):
     return math.sqrt((p2_x - p1_x)**2 + (p2_y - p1_y)**2)
 
-POLE_NORD_X = 86, 0, 0
-POLE_NORD_Y = 172, 0, 0
+POLE_NORD_X = 86, 29, 38.4
+POLE_NORD_Y = 162, 52, 1.2
 MONTREAL_X = 45, 30, 31
 MONTREAL_Y = 73, 35, 16
 polenord_ddp_x = decimal_degree(POLE_NORD_X)
